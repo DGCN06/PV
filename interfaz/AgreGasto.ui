@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>792</width>
+    <height>366</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Agregar Gasto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Imagenes/saco-monedas.jpg</normaloff>Imagenes/saco-monedas.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;
+}
+
+
+QLabel{
+    display: block;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+QPushButton#pushButton_Aceptar{
+background-color: white;
+color: rgb(0, 186, 0)
+}
+
+QPushButton#pushButton_Aceptar:hover{
+color:white;
+background-color: rgb(0, 184, 0);
+}
+
+QPushButton#pushButton_Ingresar{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Ingresar:hover{
+color:white;
+background-color: rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Buscar{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Buscar:hover{
+color:white;
+background-color: rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Cancelar{
+background-color: white;
+color: rgb(186, 0, 0);
+}
+
+QPushButton#pushButton_Cancelar:hover{
+background-color: rgb(186, 0, 0);
+color: white;
+}
+
+QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 3px;
+}
+
+
+background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>49</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial,Helvetica,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Descripcion del gasto </string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_6">
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial,Helvetica,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Costo del gasto</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QPushButton" name="pushButton_Cancelar">
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Imagenes/cancelar.png</normaloff>Imagenes/cancelar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Fecha</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QPushButton" name="pushButton_Aceptar">
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Aceptar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Imagenes/guardar.png</normaloff>Imagenes/guardar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="2" colspan="2">
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+color: rgb(0, 0, 0);
+
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_Costo">
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_Descrip">
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="4">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" rowspan="4">
+    <widget class="QLabel" name="label_3">
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imagenes/iconos/sac.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>30</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Agregar Cliente</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Imagenes/agregarCliente.png</normaloff>Imagenes/agregarCliente.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QDialog{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;
+}
+
+
+QLabel{
+    display: block;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+QPushButton#pushButton_Aceptar{
+background-color: white;
+color: rgb(0, 186, 0)
+}
+
+QPushButton#pushButton_Aceptar:hover{
+color:white;
+background-color: rgb(0, 184, 0);
+}
+
+
+QPushButton#pushButton_Ingresar{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Ingresar:hover{
+color:white;
+background-color: rgb(100, 186, 177);
+}
+
+
+QPushButton#pushButton_Cancelar{
+background-color: white;
+color: rgb(186, 0, 0);
+}
+
+QPushButton#pushButton_Cancelar:hover{
+background-color: rgb(186, 0, 0);
+color: white;
+}
+
+QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 3px;
+}
+
+
+background-color: rgb(255, 255, 255);
+
+
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="2" colspan="5">
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2" colspan="5">
+    <widget class="QComboBox" name="comboBox">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Tipo de cliente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="6">
+    <widget class="QPushButton" name="pushButton_Aceptar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>28</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Aceptar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Imagenes/guardar.png</normaloff>Imagenes/guardar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="5">
+    <widget class="QPushButton" name="pushButton_Cancelar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>28</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Imagenes/cancelar.png</normaloff>Imagenes/cancelar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Correo</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Direccion</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Arial,Helvetica,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Nombre Cliente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Telefono</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="5">
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2" colspan="5">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="5">
+    <widget class="QLineEdit" name="lineEdit_Nombre">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+}
+
+
+
+
+background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="5">
+    <widget class="QLabel" name="label_6">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>200</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imagenes/iconos/agregarCliente.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>25</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

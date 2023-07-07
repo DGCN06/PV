@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;
+}
+
+
+QLabel{
+    display: block;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+QPushButton#pushButton_Aceptar{
+background-color: white;
+color: rgb(0, 186, 0)
+}
+
+QPushButton#pushButton_Aceptar:hover{
+color:white;
+background-color: rgb(0, 184, 0);
+}
+
+QPushButton#pushButton_Ticket{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Ticket:hover{
+color:white;
+background-color: rgb(100, 186, 177);
+}
+
+
+QPushButton#pushButton_Cancelar{
+background-color: white;
+color: rgb(186, 0, 0);
+}
+
+QPushButton#pushButton_Cancelar:hover{
+background-color: rgb(186, 0, 0);
+color: white;
+}
+
+QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 3px;
+}
+
+
+background-color: rgb(255, 255, 255);
+
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Encabezado:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Pie de ticket:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="4">
+    <widget class="QTextEdit" name="textEdit_Pie"/>
+   </item>
+   <item row="5" column="3">
+    <widget class="QPushButton" name="pushButton_Aceptar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Aceptar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/guardar.png</normaloff>imagenes/iconos/guardar.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="pushButton_Cancelar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/cancelar.png</normaloff>imagenes/iconos/cancelar.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QTextEdit" name="textEdit_Encabezado"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="pushButton_Ticket">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Javanese Text</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Prueba Ticket</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Imagenes/ticket.png</normaloff>Imagenes/ticket.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

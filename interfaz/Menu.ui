@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1449</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>logo/Logo.png</normaloff>logo/Logo.png</iconset>
+  </property>
+  <property name="accessibleDescription">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMenu{
+selection-background-color: rgb(53, 195, 255);
+}
+
+
+QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+
+}
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 4px;
+}
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="0" colspan="3">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="13" colspan="3">
+    <widget class="Line" name="line_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="3">
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="13" colspan="3">
+    <widget class="Line" name="line_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="0" colspan="16">
+    <widget class="Line" name="line_6">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="14">
+    <widget class="QPushButton" name="pushButton_Devolucion">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Mostar Devolucion</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/devolucion.jpg</normaloff>logo/devolucion.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="pushButton_Producto">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Agregar Producto</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Producto{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Producto:hover{
+background-color: rgb(81, 163, 244);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/AgregarProducto.png</normaloff>imagenes/iconos/AgregarProducto.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="15">
+    <widget class="QPushButton" name="pushButton_MostaGasto">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Mostrar Gastos</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/searc.png</normaloff>logo/searc.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="14">
+    <widget class="QPushButton" name="pushButton_Gasto">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Agregar Gasto</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/Agregar.png</normaloff>logo/Agregar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Producto</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QPushButton" name="pushButton_BuscarProducto">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Buscar Producto</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton#pushButton_BuscarProducto{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_BuscarProducto:hover{
+background-color: rgb(81, 163, 244);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/BuscarProducto.png</normaloff>imagenes/iconos/BuscarProducto.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="13">
+    <widget class="QLabel" name="label_22">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Devolución</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="13">
+    <widget class="QLabel" name="label_17">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Gasto</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="13">
+    <widget class="QLabel" name="label_7">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Cliente</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="15">
+    <widget class="QPushButton" name="pushButton_BuscarCliente">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Buscar Cliente</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/sea.jpg</normaloff>logo/sea.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_12">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Venta</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="14">
+    <widget class="QPushButton" name="pushButton_Cliente">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Agregar Cliente</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/agregarCliente.png</normaloff>logo/agregarCliente.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3" rowspan="5" colspan="10">
+    <widget class="QLabel" name="label_Logo">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>30</number>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QPushButton" name="pushButton_Venta">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Agregar Venta</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/images.jpg</normaloff>imagenes/iconos/images.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QPushButton" name="pushButton_Apartado">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Agregar Apartado</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/Agregar.png</normaloff>logo/Agregar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QPushButton" name="pushButton_MostrarVenta">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Mostrar Venta</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/buscarventa.png</normaloff>imagenes/iconos/buscarventa.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="label_25">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Apartado</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="2">
+    <widget class="QPushButton" name="pushButton_BuscarApartado">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Buscar Apartado</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/searc.png</normaloff>logo/searc.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>55</width>
+       <height>55</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="6">
+    <widget class="QPushButton" name="pushButton_Contrasena">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Cambiar Contraseña</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/usuario.png</normaloff>logo/usuario.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>45</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="4">
+    <widget class="QPushButton" name="pushButton_Ticket">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Modificar Ticket</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Ticket{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Ticket:hover{
+background-color: rgb(81, 163, 244);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/Imprimir.jpg</normaloff>imagenes/iconos/Imprimir.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>45</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="10">
+    <widget class="QPushButton" name="pushButton_Impuesto">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Impuesto{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Impuesto:hover{
+background-color: rgb(81, 163, 244);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/Pagar (2).png</normaloff>imagenes/iconos/Pagar (2).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>45</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="8">
+    <widget class="QPushButton" name="pushButton_Correo">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Configurar Correo</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>logo/Correo.png</normaloff>logo/Correo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>45</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="12">
+    <widget class="QPushButton" name="pushButton_Salir">
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="toolTip">
+      <string>Salir</string>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#pushButton_Salir{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Salir:hover{
+background-color: rgb(81, 163, 244);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/ingresar.png</normaloff>imagenes/iconos/ingresar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>45</width>
+       <height>45</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="7">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="17" column="4" colspan="9">
+    <widget class="QLabel" name="label_40">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>9999</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>19</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Opciones</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="9">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="5">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="11">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="20" column="13">
+    <spacer name="horizontalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

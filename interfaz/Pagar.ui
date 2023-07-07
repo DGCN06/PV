@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>380</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Pagar</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imagenes/iconos/Pagar (2).png</normaloff>imagenes/iconos/Pagar (2).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Arial&quot;;
+}
+
+
+QLabel{
+    display: block;
+    font: 15px Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+
+QPushButton#pushButton_Aceptar{
+background-color: white;
+color:rgb(100, 186, 177);
+}
+
+QPushButton#pushButton_Aceptar:hover{
+color:white;
+background-color: rgb(100, 186, 177);
+}
+
+
+QPushButton#pushButton_Cancelar{
+background-color: white;
+color: rgb(186, 0, 0);
+}
+
+QPushButton#pushButton_Cancelar:hover{
+background-color: rgb(186, 0, 0);
+color: white;
+}
+
+QComboBox{
+	border: 1px solid Black;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+QWidget{
+background-color: rgb(255, 255, 255);
+}
+
+
+QLineEdit{
+border: 1px solid Black;
+background-color: rgb(255, 255, 255);
+border-radius: 3px;
+}
+
+
+background-color: rgb(255, 255, 255);
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="3">
+    <widget class="QPushButton" name="pushButton_Aceptar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Aceptar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/guardar.png</normaloff>imagenes/iconos/guardar.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_Cantidad_Pago">
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4" rowspan="7">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="2" colspan="2">
+    <widget class="QComboBox" name="comboBox_Forma_Pago">
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="maximumSize">
+      <size>
+       <width>130</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Cantidad a pagar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>130</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Forma de pago</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" rowspan="11">
+    <widget class="QLabel" name="label_5">
+     <property name="minimumSize">
+      <size>
+       <width>220</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>300</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imagenes/iconos/Pagar (2).png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>25</number>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2" colspan="2">
+    <spacer name="horizontalSpacer_6">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="8" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_Cambio">
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>20</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2" colspan="2">
+    <widget class="QLineEdit" name="lineEdit__Efectivo">
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>10</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="10" column="2">
+    <widget class="QPushButton" name="pushButton_Cancelar">
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imagenes/iconos/cancelar.png</normaloff>imagenes/iconos/cancelar.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1" colspan="4">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="maximumSize">
+      <size>
+       <width>130</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Cambio</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="maximumSize">
+      <size>
+       <width>130</width>
+       <height>35</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Efectivo</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
