@@ -1,0 +1,464 @@
+11:53:45     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, 'Can\'t connect to MySQL server on \'"192.168.100.14"\' ([Errno 11001] getaddrinfo failed)')
+
+11:54:08     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, 'Can\'t connect to MySQL server on \'"192.168.100.14"\' ([Errno 11001] getaddrinfo failed)')
+
+12:07:04     Error: No se puede guardar la configuracion se recomienda realizar manualmente la configuracion desde el archivo txt ubicado en /conf
+'str' object has no attribute 'write'
+
+12:08:19     Eleccion: Reinicio la aplicacion para tomar los cambios de la base de datos
+
+12:09:17     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(1045, "Access denied for user 'root'@'CONT01LT1505' (using password: YES)")
+
+12:09:23     Eleccion: Reinicio la aplicacion para tomar los cambios de la base de datos
+
+12:30:13     Error: Usted no cuenta con una licencia del aplicativo por favor contacte a Dayana Cervantes
+
+12:30:53     Error: Usted no cuenta con una licencia del aplicativo por favor contacte a Dayana Cervantes
+
+12:56:31     Error: Usted no cuenta con una licencia del aplicativo por favor contacte a Dayana Cervantes
+
+01:07:55     Error: Usted no cuenta con una licencia del aplicativo por favor contacte a Dayana Cervantes
+
+01:09:08     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+
+01:11:52     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+Expecting value: line 1 column 1 (char 0)
+
+01:12:32     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:13:01     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:14:44     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:18:14     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:21:56     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:22:33     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:23:02     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:23:28     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:27:43     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'method' object is not subscriptable
+
+01:28:46     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'finalizavigencia'
+
+01:35:20     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'finalizavigencia'
+
+01:38:11     Error: ('Su licencia vencio en %s \n por favor adquiera mas dias para su licencia', 'Sun, 11 Apr 2021 00:00:00 GMT')
+
+01:39:29     Error: Su licencia esta vencida desde: Sun, 11 Apr 2021 00:00:00 GMT
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:00:27     Error: Su licencia esta vencida desde: Sun, 11 Apr 2021 00:00:00 GMT
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:01:23     Error: Su licencia esta vencida desde: Sun, 11 Apr 2021 00:00:00 GMT
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:02:00     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'fin licencia'
+
+10:27:40     Error: Usted no cuenta con una licencia del aplicativo por favor contacte a Dayana Cervantes
+
+
+10:27:42     Error: Su licencia esta vencida desde: Sin licencia
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:28:11     Error: Su licencia esta vencida desde: Sin licencia
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:28:53     Error: Su licencia esta vencida desde: Sin licencia
+ por favor adquiera mas dias desde el portal de dayanaCervantes.com
+
+10:32:05     Error: Este equipo no se encuentra asociado a ninguna licencia, por favor accede a tu cuenta
+
+11:05:40     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06BF0490>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+11:06:29     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05ED0490>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+11:09:44     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x06D70490>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+11:10:09     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05E00490>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+03:00:06     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, "Can't connect to MySQL server on '192.168.100.14' (timed out)")
+
+03:00:19     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03AB6FD0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+10:00:05     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, "Can't connect to MySQL server on '192.168.100.14' (timed out)")
+
+10:00:10     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041D6EC8>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+10:02:31     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, "Can't connect to MySQL server on '192.168.100.14' ([WinError 10065] Se ha intentado una operación de socket en un host no accesible)")
+
+10:02:35     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03C26EE0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+10:03:01     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, "Can't connect to MySQL server on '192.168.100.14' (timed out)")
+
+10:03:05     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04306EE0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+10:47:48     Error: Error al conectar a la base de datos
+Por favor revisar la configuracion desde el boton de configurar
+O revisar archivo de base de datos ubicado en la carpeta Config
+(2003, "Can't connect to MySQL server on '192.168.100.14' (timed out)")
+
+10:47:53     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x041B5DC0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+06:24:35     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'respuesta'
+
+05:18:03     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/0/708892f1-8e4a-4fe2-b575-830ec7313b90 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x07D1D4C0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+
+05:19:07     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'respuesta'
+
+05:29:16     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'respuesta'
+
+05:52:18     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+'respuesta'
+
+06:19:44     Error: El equipo no se encuentra relacionado a tu licencia
+
+06:28:27     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+06:29:28     Error: El equipo no se encuentra relacionado a tu licencia
+
+06:41:01     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+06:42:56     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+06:53:08     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+06:59:52     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:00:18     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:01:56     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:01:58     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:02:30     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:02:33     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:03:05     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:03:07     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:03:29     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:03:30     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:05:36     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:05:38     Advertencia: error no identificado: (1054, "Unknown column 'cant_usuario' in 'field list'")
+
+07:06:53     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:07:00     Advertencia: error no identificado: (1054, "Unknown column 'licencia' in 'where clause'")
+
+07:07:51     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:15:15     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:16:26     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+07:18:43     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+07:21:35     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:21:36     Error: No se puede comprobar la licencia
+
+07:21:58     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:22:03     Error: No se puede comprobar la licencia
+
+07:23:43     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:23:48     Error: No se puede comprobar la licencia
+
+07:24:33     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:24:35     Error: No se puede comprobar la licencia
+
+07:27:57     Error: 'ConfigParser' object has no attribute 'close'
+
+07:27:59     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:28:01     Error: No se puede comprobar la licencia
+
+07:28:26     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:28:28     Error: No se puede comprobar la licencia
+
+07:29:02     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:29:04     Error: No se puede comprobar la licencia
+
+07:29:26     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:29:28     Error: No se puede comprobar la licencia
+
+07:30:05     Error: Error al leer la Configuración de su licencia, por favor revise que exista el archivo de configuraciones
+ de lo contrario reinicie la aplicacionoption values must be strings
+
+07:30:06     Error: No se puede comprobar la licencia
+
+08:16:20     Error: No se puede comprobar la licencia, verifique su conexión a internet
+
+08:16:35     Error: No se puede comprobar la licencia, verifique su conexión a internet
+
+08:19:38     Error: No se puede comprobar la licencia, verifique su conexión a internet
+
+08:20:02     Error: No se puede comprobar la licencia, verifique su conexión a internet
+
+08:21:33     Error: No se puede comprobar la licencia, verifique su conexión a internet
+
+08:22:23     Error: No se puede comprobar la licencia, verifique su conexión a internet: 'codigo'
+
+08:23:13     Error: No se puede comprobar la licencia, verifique su conexión a internet: 'codigo'
+
+08:25:34     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+08:37:31     Error: No se puede comprobar la licencia, verifique su conexión a internet: Expecting value: line 1 column 1 (char 0)
+
+08:50:49     Error: Usuario y/o Contraseña no existen
+
+08:55:17     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+08:58:40     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:03:10     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:04:45     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:12:29     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:13:13     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:13:42     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:14:28     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:15:18     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:18:24     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:18:29     Advertencia: Se registró el equipo con exito pero NO se encuentra activo
+
+09:18:35     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:20:06     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+09:20:08     Advertencia: El equipo se registró correctamente y se encuentra activo
+
+09:22:46     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:22:58     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:24:16     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:26:14     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:26:45     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:27:09     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:31:00     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+09:40:48     Advertencia: Se le envio su password al correo, por favor revisarlo
+
+12:48:08     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+01:23:48     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+12:11:17     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+12:11:19     Advertencia: Se registró el equipo con exito pero NO se encuentra activo
+
+12:11:21     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+12:27:08     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+12:27:57     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+12:28:03     Advertencia: Se registró el equipo con exito pero NO se encuentra activo
+
+12:28:05     Error: Equipo no está activo en la licencia
+ Ingresa a la pagina www.X.com y marca este equipo como activo
+
+12:43:10     Advertencia: El equipo no se encuentra relacionado a tu licencia
+
+12:43:13     Advertencia: El equipo se registró correctamente y se encuentra activo
+
+12:47:17     Error: Por favor Validar los datos de usuario y contrase;a
+showNormal(self): first argument of unbound method must have type 'QWidget'
+
+12:47:33     Error: Por favor Validar los datos de usuario y contrase;a
+showNormal(self): first argument of unbound method must have type 'QWidget'
+
+12:48:42     Error: Por favor Validar los datos de usuario y contrase;a
+showNormal(self): first argument of unbound method must have type 'QWidget'
+
+02:03:02     Advertencia: Se le envio su password al correo, por favor revisarlo
+
+06:53:26     Error: 'Crear_Producto' object has no attribute 'lineEdit_precio'
+
+06:53:51     Error: GuardaProducto() takes from 0 to 5 positional arguments but 6 were given
+
+08:02:34     Error: 'Crear_Producto' object has no attribute 'cwd'
+
+08:06:27     Error: 'Crear_Producto' object has no attribute 'label_Logo'
+
+08:20:37     Error: (1265, "Data truncated for column 'costo' at row 1")
+
+08:20:44     Error: (1265, "Data truncated for column 'costo' at row 1")
+
+08:21:00     Error: (1265, "Data truncated for column 'costo' at row 1")
+
+08:21:09     Error: 'Crear_Producto' object has no attribute 'label_Notificacion'
+
+08:25:23     Error: 'QLabel' object has no attribute 'setTex'
+
+08:37:37     Error: Notificar() missing 1 required positional argument: 'tipoMensaje'
+
+08:39:01     Error: (1062, "Duplicate entry 'pantalon01' for key 'codigo'")
+
+09:05:40     Error: 'QComboBox' object has no attribute 'setText'
+
+09:05:47     Error: 'QComboBox' object has no attribute 'setText'
+
+09:07:56     Error: 'QComboBox' object has no attribute 'setText'
+
+09:08:37     Error: 'QSpinBox' object has no attribute 'setText'
+
+11:45:47     Error: (1062, "Duplicate entry 'pantalon02' for key 'codigo'")
+
+11:46:23     Error: 'Modificar_Producto' object is not callable
+
+11:47:08     Error: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1")
+
+11:47:49     Error: 'Modificar_Producto' object has no attribute 'Notificar'
+
+11:53:00     Advertencia: Producto incorrecto o nonetype
+
+11:54:00     Advertencia: Producto incorrecto o nonetype
+
+04:26:12     Error: OK
+
+04:26:49     Error: (1364, "Field 'idimpuesto' doesn't have a default value")
+
+04:27:36     Error: OK
+
+05:11:54     Error: OK
+
+05:12:37     Error: OK
+
+05:13:36     Error: OK
+
+05:29:22     Error: (1062, "Duplicate entry 'IVA' for key 'Nombre_UNIQUE'")
+
+10:13:11     Error: (1146, "Table 'luna.ticket' doesn't exist")
+
+10:13:56     Error: (1054, "Unknown column 'id' in 'where clause'")
+
+04:45:02     Error: Por favor verifica que se tenga acceso a internet y que no existan 
+bloqueos por las aplicaciones de antivirus
+HTTPConnectionPool(host='127.0.0.1', port=4000): Max retries exceeded with url: /licencia/qQweg-hhqfyqs-qugsuq/9f2ebd47-ce85-4a79-ac67-81c89b6e7d2a (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000238F1D32D40>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+

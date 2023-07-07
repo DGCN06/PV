@@ -1,0 +1,12 @@
+[TipoMovimiento]
+0: entrada
+1: salida
+
+
+[Motivo movimiento]
+0: inventario inicial
+1: entrada de inventario x compra
+2: entrada al inventario x ajuste
+3: salida de inventario x merma
+4: salida de inventario x compra
+5: salida de inventario x ajuste
